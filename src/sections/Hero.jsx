@@ -13,7 +13,7 @@ function Hero() {
             Bidur Khanal<span className="hero-title-accent">.</span>
           </h1>
 
-          <h2 className="hero-role">AI Enthusiast | Python Developer</h2>
+          <h2 className="hero-role">AI Enthusiast | Python Developer | Data Analyst</h2>
 
           <p className="hero-description">
             Turning Ideas into Intelligent Applications. I enjoy building
