@@ -1,0 +1,84 @@
+
+:root {
+  /* =================================
+     COLOR SYSTEM
+  ================================= */
+
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+
+  --color-background: #fafafa;
+  --color-surface: #ffffff;
+  --color-surface-secondary: #f3f4f6;
+
+  --color-heading: #171717;
+  --color-text: #525252;
+  --color-muted: #737373;
+
+  --color-border: #e5e7eb;
+
+
+  /* =================================
+     TYPOGRAPHY
+  ================================= */
+
+  --font-primary: "Inter", sans-serif;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
+
+
+  /* =================================
+     LAYOUT & SPACING
+  ================================= */
+
+  --container-width: 1152px;
+
+  --section-spacing: 110px;
+
+  --spacing-xs: 8px;
+  --spacing-sm: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 32px;
+  --spacing-xl: 48px;
+  --spacing-2xl: 64px;
+
+
+  /* =================================
+     BORDER RADIUS
+  ================================= */
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 999px;
+
+
+  /* =================================
+     SHADOWS
+  ================================= */
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.06);
+
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.08);
+
+
+  /* =================================
+     TRANSITIONS
+  ================================= */
+
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 400ms ease;
+}

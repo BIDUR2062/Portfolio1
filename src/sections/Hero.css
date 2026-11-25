@@ -1,0 +1,24 @@
+.hero-socials {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.hero-socials a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.hero-socials a svg {
+  font-size: 1.4rem;
+}
+
+.hero-socials a:hover {
+  color: #0a66c2; /* swap for your accent color */
+  transform: translateY(-2px);
+}

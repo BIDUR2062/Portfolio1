@@ -1,0 +1,233 @@
+
+/* =================================
+   FONT IMPORT
+================================= */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+
+/* =================================
+   CSS RESET
+================================= */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* =================================
+   HTML & BODY
+================================= */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  min-width: 320px;
+  font-family: var(--font-primary);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-size: var(--text-base);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* =================================
+   TYPOGRAPHY
+================================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-heading);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+}
+
+h1 {
+  font-size: var(--text-6xl);
+}
+
+h2 {
+  font-size: var(--text-4xl);
+}
+
+h3 {
+  font-size: var(--text-2xl);
+}
+
+p {
+  margin-bottom: var(--spacing-sm);
+}
+
+
+/* =================================
+   LINKS
+================================= */
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color var(--transition-normal);
+}
+
+
+/* =================================
+   BUTTONS & FORM ELEMENTS
+================================= */
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 4px;
+}
+
+
+/* =================================
+   IMAGES
+================================= */
+
+img,
+picture,
+video,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+}
+
+
+/* =================================
+   LISTS
+================================= */
+
+ul,
+ol {
+  list-style: none;
+}
+
+
+/* =================================
+   REUSABLE LAYOUT
+================================= */
+
+.container {
+  width: min(100% - 48px, var(--container-width));
+  margin-inline: auto;
+}
+
+.section {
+  padding-block: var(--section-spacing);
+}
+
+
+/* =================================
+   SECTION HEADINGS
+================================= */
+
+.section-header {
+  max-width: 650px;
+  margin-bottom: 48px;
+}
+
+.section-subtitle {
+  display: inline-block;
+  margin-bottom: 14px;
+
+  color: var(--color-primary);
+  font-size: var(--text-sm);
+  font-weight: 600;
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.section-title {
+  margin-bottom: 16px;
+  color: var(--color-heading);
+}
+
+.section-description {
+  color: var(--color-muted);
+  font-size: var(--text-lg);
+  line-height: 1.8;
+}
+
+
+/* =================================
+   TEXT UTILITIES
+================================= */
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.text-muted {
+  color: var(--color-muted);
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+/* =================================
+   SELECTION
+================================= */
+
+::selection {
+  background-color: var(--color-primary);
+  color: #ffffff;
+}
+
+
+/* =================================
+   SCROLLBAR
+================================= */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-muted);
+}
